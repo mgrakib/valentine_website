@@ -1,25 +1,107 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-  </script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#442d30",
+							s_primary: "#220e10",
+							t_primary: "#d10026",
+						},
+						fontFamily: {
+							dancing: ["Dancing Script", "cursive"],
+							oswald: ["Oswald", "sans-serif"],
+							montserrat: ["Montserrat", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
 
-    <title>Valentine Website</title> 
-</head>
-<body>
-    
-</body>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600&family=EB+Garamond:wght@400;500;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Khula:wght@300;400;600;700;800&family=Lobster+Two:wght@400;700&family=Montserrat:wght@200;300;400;500&family=Norican&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Oswald:wght@300;400;700&family=Poppins:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="styles/style.css"
+		/>
+
+		<title>Valentine Website</title>
+	</head>
+	<body>
+
+        <div class="container bg-red-600 h-screen mx-auto flex items-center justify-center">
+            <div class="w-10/12 h-5/6 bg-green-500">
+                <div class="flex h-full flex-col md:flex-row">
+                    <!-- left side  -->
+                    <div class="w-full h-5/6 md:w-11/12 md:h-full bg-black py-3"></div>
+                    <!-- left side  -->
+
+                    <!-- right side  -->
+                    <div class="w-full h-1/6 md:h-full md:w-1/12 bg-yellow-400 py-3 px-3 v-rightbg">
+                        <div class="w-full h-full flex flex-row md:flex-col items-center justify-between">
+                            <!-- hambar section  -->
+                            <div class="cursor-pointer">
+                                <img src="./assets/images/align-justify.svg" alt="" style="25px">
+                            </div>
+                            <!-- hambar section  -->
+
+                            <!-- social icons  -->
+                            <div>
+                                <div class="flex md:flex-col md:items-center gap-4">
+                                    <img src="./assets/images/facebook.svg" alt="" style="width: 20px;" class="cursor-pointer">
+                                    <img src="./assets/images/instagram.svg" alt="" style="width: 20px;" class="cursor-pointer">
+                                    <img src="./assets/images/twitter.svg" alt="" style="width: 20px;" class="cursor-pointer">
+                                    <img src="./assets/images/youtube.svg" alt="" style="width: 20px;" class="cursor-pointer">
+                                    <img src="./assets/images/leftbg/lineh.png" alt="" style="height: 30px; width: 3px;" class="rotate-90 md:rotate-0 hidden md:block">
+                                </div>
+                            </div>
+                            <!-- social icons end -->
+
+                            <!-- language  -->
+                            <div class="text-white">
+                                <div>
+                                    <p class="cursor-pointer">BAN</p>
+                                    <p class="cursor-pointer">ENG</p>
+                                </div>
+                            </div>
+                            <!-- language end -->
+                        </div>
+                    </div>
+                    <!-- right side  -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </body>
 </html>

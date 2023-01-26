@@ -1,0 +1,31 @@
+.v-rightbg {
+    background-image: url(../assets/images/long_shapte.png);
+    background-size: 135%;
+    background-position:center;
+}
+
+
+.v-leftbg {
+    background-image: url(../assets/images/round_shap.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .v-rightbg {
+    background-image: url(../assets/images/long_shapte.png);
+    background-size: 140%;
+    background-position:top -60px left -66px;
+}
+}
